@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolbelt.Selenium", "Toolbelt.Selenium\Toolbelt.Selenium.csproj", "{A1F2A60B-7BFA-4BAA-A24F-24CFCE132F94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolbelt.Selenium.Tests", "Toolbelt.Selenium.Tests\Toolbelt.Selenium.Tests.csproj", "{FF37125F-EE0F-4237-9C12-7C87895066B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolbelt.Selenium.Samples.SpecFlow", "Toolbelt.Selenium.Samples.SpecFlow\Toolbelt.Selenium.Samples.SpecFlow.csproj", "{42275388-145C-4309-8C74-0244275ADEA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolbelt.Selenium.Samples.NUnit", "Toolbelt.Selenium.Samples.NUnit\Toolbelt.Selenium.Samples.NUnit.csproj", "{48F30821-732F-4341-9D50-05F09D5CCB79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{14918B9B-10D6-49B2-946F-E7525384E691}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolbelt.Selenium.Samples.PageModel", "Toolbelt.Selenium.Samples.PageModel\Toolbelt.Selenium.Samples.PageModel.csproj", "{5ACEB6F0-DC6B-4F9B-87EB-03C2EB342FAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1F2A60B-7BFA-4BAA-A24F-24CFCE132F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1F2A60B-7BFA-4BAA-A24F-24CFCE132F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1F2A60B-7BFA-4BAA-A24F-24CFCE132F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1F2A60B-7BFA-4BAA-A24F-24CFCE132F94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF37125F-EE0F-4237-9C12-7C87895066B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF37125F-EE0F-4237-9C12-7C87895066B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF37125F-EE0F-4237-9C12-7C87895066B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF37125F-EE0F-4237-9C12-7C87895066B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42275388-145C-4309-8C74-0244275ADEA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42275388-145C-4309-8C74-0244275ADEA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42275388-145C-4309-8C74-0244275ADEA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42275388-145C-4309-8C74-0244275ADEA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48F30821-732F-4341-9D50-05F09D5CCB79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48F30821-732F-4341-9D50-05F09D5CCB79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48F30821-732F-4341-9D50-05F09D5CCB79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48F30821-732F-4341-9D50-05F09D5CCB79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ACEB6F0-DC6B-4F9B-87EB-03C2EB342FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ACEB6F0-DC6B-4F9B-87EB-03C2EB342FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ACEB6F0-DC6B-4F9B-87EB-03C2EB342FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ACEB6F0-DC6B-4F9B-87EB-03C2EB342FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
