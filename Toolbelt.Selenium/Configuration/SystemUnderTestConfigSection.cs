@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Configuration;
 
-namespace Toolbelt.Selenium
+namespace Toolbelt.Selenium.Configuration
 {
     public class SystemUnderTestConfigSection : ConfigurationSection
     {
@@ -17,6 +17,12 @@ namespace Toolbelt.Selenium
         {
             get { return (string)this["url"]; }
             set { this["url"] = value; }
+        }
+
+        [ConfigurationProperty("chromeOptions")]
+        public ChromeOptionsConfigurationElement ChromeOptions
+        {
+            get { return (ChromeOptionsConfigurationElement)this["chromeOptions"]; }
         }
     }
 }
